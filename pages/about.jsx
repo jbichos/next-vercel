@@ -14,10 +14,7 @@ export default function AboutPage() {
       <main className={styles.main}>
         <h1 className={styles.title}>
           {/* Ir a <a href="/">Home</a> */}
-          Ir a {' '}
-          <Link href='/'>
-            <a>Home</a>
-          </Link>
+          Ir a <Link href='/'>Home</Link>
         </h1>
 
         <p className={styles.description}>
